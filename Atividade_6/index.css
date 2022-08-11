@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #080d4d;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+}
+
+.tabela{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40vw;
+    height: 45vh;
+    background-image: url(./img/estadio.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 7.5px;
+}
+
+th{
+    background-color: #183cb200;
+    padding: 10px;
+}
+
+table{
+    margin-left: 50px;
+    text-align: center;
+}
+
+
+.primeiro{
+    background-color: white;
+}
+
+.segunda{
+    background-color: rgba(255, 255, 255, 0.514);
+}
+
+.cr7{
+    margin-left: 30px;
+    width: 300px;
+    filter: drop-shadow(5px 5px 5px #222)
+}
